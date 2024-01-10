@@ -4,4 +4,6 @@ About Me With a foundation in Java and Python, I specialize in microservices arc
 Explore the code, delve into my technical explorations, and feel free to reach out for discussions or collaborations. Your curiosity is much appreciated!
 Connect with me on [LinkedIn] for more updates and insights into my professional journey.
 Thank you for dropping by, and happy exploring!
+
+
 LinkedIn:  https://www.linkedin.com/in/kamil-kerbaga/
