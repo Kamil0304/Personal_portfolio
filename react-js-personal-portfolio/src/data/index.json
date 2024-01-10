@@ -1,0 +1,79 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "Proficient in JavaScript, Strong expertise in crafting visually appealing and responsive user interfaces,Extensive experience with HTML,Skilled in React.js for building dynamic web applications,Proficient in leveraging CSS for styling, layout, and design'Familiarity with jQuery for efficient and interactive client-side scripting, Familiarity with Bootstrap for responsive and mobile-first developmen"
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "As a seasoned backend developer, I bring extensive expertise in Java, Python, and C#, coupled with proficiency in frameworks like Spring Boot. My skill set encompasses Object-Oriented Programming, UML Modeling, and Concurrency & Multithreading, machine learning(NLP), reflecting a strong foundation in software architecture and efficient parallel processing. I've efficiently utilized continuous integration tools such as TeamCity and Github actions as CI/CD tools CI/CD. Using github actions and TeamCity, I've streamlined the integration and delivery processes, ensuring a smooth and automated workflow for building, testing, and deploying backend applications."
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "Cloud Services",
+      "description": "I have extensive experience in cloud services, particularly in Google Cloud Platform (GCP) and Amazon Web Services (AWS). In GCP, I've successfully utilized services such as Pub/Sub, Cloud Composer, Dataflow Jobs, Compute Engine, Cloud Storage Bucket, BigQuery, Bigtable, and Datastore. This demonstrates my proficiency in building scalable and reliable solutions using a variety of GCP tools. On the AWS front, I've leveraged Lambda functions for serverless computing, orchestrated workflows with Step Functions,EC2, S3, SNS & SQS, CloudFront."
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Database",
+      "description": "My expertise extends to relational databases, including MySQL, SQL Server, and Oracle, where I've effectively designed and managed structured data models, ensuring data integrity and optimal performance.On the NoSQL front, I have hands-on experience with MongoDB, handling document-based data models, and DynamoDB, a managed NoSQL service by AWS, showcasing my ability to work with highly scalable and flexible non-relational databases.Moreover, I've worked with key-value stores, particularly Bigtable, which is well-suited for large-scale database requirement"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/Publications-Slider.png",
+      "title": "Publications",
+      "description": "As a dedicated researcher in machine learning, my portfolio reflects a profound focus on leveraging advanced techniques to solve complex problems in Natural Language Processing (NLP) and sentiment analysis. With a recent publication in a reputable journal, my work underscores a commitment to innovation and excellence in the field.",
+      "link": "https://www.hindawi.com/journals/cin/2022/7893775/"
+    },
+    {
+      "id": "2",
+      "src": "./img/projects_.png",
+      "title": "Projects and Industry experience",
+      "description": "My expertise lies in leveraging the power of Google Cloud services and employing distributed processing techniques using Java and Python. I have successfully contributed to various projects, demonstrating proficiency in optimizing system performance and scalability. In addition to my professional endeavors, I am passionate about personal projects that showcase my creativity and technical prowess. see my github below",
+      "link": "https://github.com/Kamil0304"
+    },
+    {
+      "id": "3",
+      "src": "./img/certi.png",
+      "title": "academic qualifications",
+      "description": "I have a Bachelor's degree in Computer Science from a prestigious university in Ethiopia. Subsequently, I earned a Master's degree in Computer Science and Engineering from a renowned university in South Korea. Additionally, I attained a second Master's degree in Computer Science from MIU here  in the USA. I also was  actively engaged in research, focusing on machine learning with a primary emphasis on Natural Language Processing (NLP) and Sequence Models.See my linkedin below ",
+      "link": "https://www.linkedin.com/in/kamil-kerbaga"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "4",
+      "description": "Front-end :  REactJS , HTML, CSS, Javascript"
+
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "description": "Back-end : Java , Python , C#, JsvsaScript"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "description": "Database : MySQL, SQL Server, MongoDB, BigQuery,Bigtable"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "description": "Cloud: Google cloud platform and AWS "
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "description": "CI/CD: TeamCity and github actions"
+    }
+  ]
+}
