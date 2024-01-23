@@ -1,4 +1,32 @@
+import React, { useState } from 'react';
+import AWS from 'aws-sdk';
+
 export default function ContactMe() {
+
+  const [message, setMessage] = useState('');
+
+  const handleFormSubmit = async (e) => {
+    e.preventDefault();
+
+    // Your AWS SNS configuration
+    AWS.config.update({ region: 'us-east-1' });
+    const sns = new AWS.SNS();
+    const topicArn = 'arn:aws:sns:us-east-1:124665659951:emailNotification';
+
+    try {
+      // Publish the message to the SNS topic
+      const data = await sns.publish({
+        Message: "message",
+        TopicArn: topicArn,
+      }).promise();
+
+      console.log('Message published successfully:', data);
+    } catch (error) {
+      console.error('Error publishing message:', error);
+    }
+  };
+
+
   return (
     <section id="Contact" className="contact--section">
       <div>
@@ -9,7 +37,7 @@ export default function ContactMe() {
       </div>
       <form className="contact--form--container">
         <div className="container">
-          <label htmlFor="first-name" className="contact--label">
+          <label htmlFor="first-name" className="contact--label" >
             <span className="text-md">First Name</span>
             <input
               type="text"
